@@ -12,7 +12,7 @@ from backtrader import indicators
 
 class TestStrategy(bt.Strategy):
 
-    def __init__(self,period = 2880):
+    def __init__(self,period = 1440*2):
 
         self.dataclose = self.datas[0].close
         self.dataopen = self.datas[0].open
@@ -31,8 +31,6 @@ class TestStrategy(bt.Strategy):
         self.order_buy_stop_back_up = None
         self.order_sell_stop_back_up = None
         self.trade_amount_percentage = 0.4
-        self.is_buy = True
-        self.is_sell = False
 
         self.period = period
         self.time = 0
@@ -44,7 +42,8 @@ class TestStrategy(bt.Strategy):
         self.Bbreak = 0
         self.Sbreak = 0
 
-
+        self.is_buy = is_buy
+        self.is_sell = is_sell
         self.is_print = True
 
     def log(self, txt, dt=None):

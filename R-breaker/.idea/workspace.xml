@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efb14cc-166d-42f5-bcfc-216f833c6100" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MACD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MACD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MACD/1_2_results_supplements.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MACD/MACD结果汇总.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MACD/MACD结果汇总.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R-breaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/R-breaker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../double_MA" beforeDir="false" afterPath="$PROJECT_DIR$/../double_MA" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MultiTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="74">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R-breaker.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/R_breaker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="228">
+              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <element signature="e#0#108#0" expanded="true" />
               </folding>
@@ -55,6 +54,7 @@
       <list>
         <option value="$PROJECT_DIR$/R-breaker.py" />
         <option value="$PROJECT_DIR$/MultiTest.py" />
+        <option value="$PROJECT_DIR$/R_breaker.py" />
       </list>
     </option>
   </component>
@@ -101,7 +101,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.MultiTest">
+    <configuration name="MultiTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="R-breaker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MultiTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="R-breaker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="R-breaker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MultiTest" />
         <item itemvalue="Python.R-breaker" />
       </list>
     </recent_temporary>
@@ -147,7 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1561549834010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nothing">
+      <created>1561597385066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561597385066</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nothing">
+      <created>1561597427061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561597427061</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nothing">
+      <created>1561597458983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561597458983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -207,8 +250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/R-breaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="-1">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#108#0" expanded="true" />
           </folding>
@@ -217,8 +260,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MultiTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="74">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R_breaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

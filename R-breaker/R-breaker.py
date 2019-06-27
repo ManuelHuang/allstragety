@@ -42,8 +42,8 @@ class TestStrategy(bt.Strategy):
         self.Bbreak = 0
         self.Sbreak = 0
 
-        self.is_buy = is_buy
-        self.is_sell = is_sell
+        self.is_buy = True
+        self.is_sell = False
         self.is_print = True
 
     def log(self, txt, dt=None):

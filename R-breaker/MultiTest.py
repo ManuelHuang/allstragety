@@ -20,12 +20,12 @@ def my_run(arg):
     cerebro.addanalyzer(btanalyzers.SharpeRatio, _name='mysharpe',timeframe=bt.TimeFrame.Months)
     cerebro.addanalyzer(btanalyzers.DrawDown, _name='mydrawdown')
     cerebro.addstrategy(TestStrategy, *arg)
-    cerebro.run()
+    threats = cerebro.run()
     logging.basicConfig(filename='all_results.log', level=logging.DEBUG)
 
     final_value = cerebro.broker.getvalue()
-    sharp = cerebro.run()[0].analyzers.mysharpe.get_analysis()['sharperatio']
-    drawdown = cerebro.run()[0].analyzers.mydrawdown.get_analysis().max.drawdown
+    sharp = threats[0].analyzers.mysharpe.get_analysis()['sharperatio']
+    drawdown = threats[0].analyzers.mydrawdown.get_analysis().max.drawdown
 
     out_message = '%s,%.2f,%s,%s' % (arg[0],final_value,sharp,drawdown)
     print(out_message)
